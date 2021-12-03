@@ -1,0 +1,7 @@
+.container{
+    width: 1440px;
+}
+.navigationbanner{
+    height: 680px;
+    background-image: url("./assets/section_hero.png");
+}
