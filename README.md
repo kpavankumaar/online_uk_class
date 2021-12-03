@@ -24,6 +24,8 @@
 15. "git add readme.md" --> would return green colored readme.md text, suggesting that git has read the changes.
 16. git commit -m "modified the readme file for first time commit "
 17. git push 
+18. Windows for the first time -> authentication is needed
+
 
 
 
