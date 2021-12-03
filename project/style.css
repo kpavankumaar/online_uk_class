@@ -3,5 +3,25 @@
 }
 .navigationbanner{
     height: 680px;
-    background-image: url("./assets/section_hero.png");
+    /* background-image: url("./assets/section_hero.png"); */
+
+
+}
+.navigation1 {
+    list-style-type:none;
+}
+.navigation1 li::before{
+    content:"";
+    display: inline-block;
+    width:5px;
+    height:5px;
+    background-color: aqua;
+    margin-right:5px;
+    margin-bottom:2px;
+}
+a{
+    width: 500px;
+    height:25px;
+    display: inline-block;
+    background-color: yellow;
 }
