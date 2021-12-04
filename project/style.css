@@ -1,16 +1,12 @@
 .container{
     width: 1440px;
 }
-.navigationbanner{
-    height: 680px;
-    /* background-image: url("./assets/section_hero.png"); */
 
-
-}
 .navigation1 {
     list-style-type:none;
 }
-.navigation1 li::before{
+/* use this for creating bullet points */
+/* .navigation1 li::before{
     content:"";
     display: inline-block;
     width:5px;
@@ -18,10 +14,55 @@
     background-color: aqua;
     margin-right:5px;
     margin-bottom:2px;
-}
+} */
 a{
     width: 500px;
     height:25px;
     display: inline-block;
     background-color: yellow;
 }
+/* normalising */
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    list-style-type: none;
+}
+
+.navigation1,.logo,.navigation2{
+    float:left;
+}
+.navigation1 li, .navigation2 li{
+    float:left;
+}
+.navigation{
+    background-image: url("./assets/section_hero.png");
+}
+.navigationbanner{
+    width:940px;
+    margin: auto;
+    color:#ffffff;
+}
+.navigationbanner::after{
+    content: "";
+    display:block;
+    clear: both;
+    
+}
+.navigation1{
+    margin-right:98px;
+}
+.navigation1 li, .navigation2 li{
+    margin-right:38px;
+    padding-top: 45px;
+}
+.logo{
+    width:100px;
+}
+.navigation2{
+    margin-left:98px;
+}
+/* {
+    margin-right: 40px;
+} */
