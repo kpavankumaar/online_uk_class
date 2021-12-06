@@ -38,6 +38,7 @@ ul li{
 }
 .navigation{
     background-image: url("./assets/section_hero.png");
+    padding-bottom: 258px;
 }
 .navigationbanner{
     width:940px;
@@ -66,3 +67,34 @@ ul li{
 /* {
     margin-right: 40px;
 } */
+.bannertext{
+    width:520px;
+    margin: auto;
+    margin-top:278px;
+
+}
+.bannertext p{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.bannertext div{
+    width:368px;
+    margin:auto;
+
+}
+.bannertext div button{
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.bannertext div button:last-child{
+    margin-left:40px;
+    color:#0e6248;
+}
+.bannertext div button:first-child{
+    background-color: #0e6248;
+    color:white;
+}
+.bannertext div:first-of-type{
+    margin-top: 25px;
+}
