@@ -1,0 +1,58 @@
+html,body,ul,li,p, h1, h2, h3, h4, h5, h6, blockquote{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    list-style-type:none;
+}
+.navbanner{
+    width: 2045px;
+    border:1px solid black;
+    /* height: 900px; */
+    background-color: #f8f8f8;
+    /* background: url("./asset/img7.png") no-repeat; */
+    /* background-size:contain; */
+
+}
+.container{
+    width:1783px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo, .nav, .search{
+    float: left;
+}
+.navigation{
+    float:right;
+}
+.nav{
+    width:600px;
+}
+.nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav li{
+    float:left;
+    margin-left:60px;
+}
+.nav ul li:first-child{
+    margin-left: 0px;
+}
+.banner{
+    clear:both;
+    width:1661px;
+    margin:auto; 
+    margin-top: 237px;
+    margin-bottom:300px;
+}
+.banner img[alt="ave"]{
+    width:100%;
+}
