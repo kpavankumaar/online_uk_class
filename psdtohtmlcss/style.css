@@ -38,12 +38,34 @@ ul li{
     display: block;
     clear: both;
 }
-.nav li{
+.nav .menu > li{
     float:left;
     margin-left:60px;
 }
-.nav ul li:first-child{
+.nav ul.menu li:first-child{
     margin-left: 0px;
+}
+.nav ul li:first-child span:hover + .mensubmenu{
+    display: block;
+}
+
+.mensubmenu{
+    display:none;
+    position:absolute;
+    width:465px;
+    padding:25px 30px;
+    box-shadow: 0px 1px 5px grey ;
+
+}
+.mensubmenu:hover{
+    display: block;
+}
+.mencasuals, .menformals{
+    width:165px;
+    float: left;
+}
+.submenubanner{
+    clear: both;
 }
 .banner{
     clear:both;
@@ -63,6 +85,8 @@ ul li{
     color:#575153;
     
 }
+
+
 /* .banner img[alt="ave"]{
     width:100%;
     position:absolute;
