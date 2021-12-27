@@ -24,19 +24,9 @@ html,body,ul,li,p, h1, h2, h3, h4, h5, h6, div, blockquote{
     margin-left: 30px;
     margin-right: 80px;
 }
-.register ul li, .currency{
-    padding-top:15px;
-    padding-bottom:15px;
-}
 .register ul li:last-child{
-    background-color: #00c8c8;
-    padding-right:20px;
-    padding-left:20px;
-}
-.register ul li:last-child a{
-    margin-right:20px;
-    font-size: 20px;
-    color:#fff;
+    padding-top:15px;
+    padding-botom:15px;
 }
 .currency select,.currency label{
     background-color: #333333;
@@ -51,7 +41,8 @@ ul li{
     list-style-type:none;
 }
 .navbanner{
-    width: 2045px;   
+    width: 2045px;
+    border:1px solid black;    
     background: url("./asset/bannerimg.png");
     background-repeat: no-repeat;
     background-position-x: 500px;

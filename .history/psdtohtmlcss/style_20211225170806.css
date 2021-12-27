@@ -2,56 +2,12 @@ html,body,ul,li,p, h1, h2, h3, h4, h5, h6, div, blockquote{
     margin:0px;
     padding:0px;
 }
-.topbar{
-    width:2045px;
-    background-color: #333333;
-    padding-top:15px;
-    padding-bottom:15px;
-}
-.topbar > div{
-    width:1185px;
-    margin:auto;
-}
-.register{
-    float: right;
-}
-
-.currency,.register ul li {
-    float:left;
-    color:#999999;
-}
-.register ul li:nth-child(2){
-    margin-left: 30px;
-    margin-right: 80px;
-}
-.register ul li, .currency{
-    padding-top:15px;
-    padding-bottom:15px;
-}
-.register ul li:last-child{
-    background-color: #00c8c8;
-    padding-right:20px;
-    padding-left:20px;
-}
-.register ul li:last-child a{
-    margin-right:20px;
-    font-size: 20px;
-    color:#fff;
-}
-.currency select,.currency label{
-    background-color: #333333;
-    color:#999999;
-    border: none;
-}
-.register ul li a{
-    color:#999999;
-    text-decoration: none;
-}
 ul li{
     list-style-type:none;
 }
 .navbanner{
-    width: 2045px;   
+    width: 2045px;
+    border:1px solid black;    
     background: url("./asset/bannerimg.png");
     background-repeat: no-repeat;
     background-position-x: 500px;
@@ -60,11 +16,7 @@ ul li{
 .container{
     width:1783px;
     margin: auto;
-    padding-top:45px;
-    padding-bottom:35px;
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 400;
+    border: 1px solid black;
     /* margin-bottom:237px; */
 }
 .container::after{
@@ -121,20 +73,19 @@ ul li{
     margin:auto; 
     
     
-}   
+}
 .banner p{
     width:1651px;
     margin: auto;
     padding-top: 237px;
     padding-bottom:300px;
     font-size: 450px;
-    font-weight: 700;
-    letter-spacing: 300px;
+    letter-spacing: 335px;
     font-family: "Montserrat";
     color:#575153;
     
 }
-.trendingcontainer, .footer{
+.trendingcontainer{
     width:2045px;
 }
 .trending{
@@ -163,7 +114,7 @@ ul li{
     color:#33d3d3;
 }
 
-.topbar::after ,.trendnav ul::after, .firstset div::after, .promote::after,.secondsetsecondrow::after, .catalog::after, .footer > div,.social::after{
+.trendnav ul::after, .firstset div::after, .promote::after,.secondsetsecondrow::after, .catalog::after, .footer > div{
     content:"";
     display: block;
     clear: both;
@@ -232,80 +183,11 @@ ul li{
     font-size: 48px;
     font-weight: 400;
 }
-.footer{
-    box-sizing: border-box;
-}
-.footer > div{
-    width:1180px;
-    margin:auto;
-    padding-top:60px;
-    padding-bottom:60px;
-}
 .webnav{
     float: left;
-    width:235px;
-    /* margin-left:75px; */
-}
-.webnav h4{
-    color:#575153;
-    margin-bottom:35px;
-}
-.webnav ul li{
-    margin-bottom:15px;
-}
-.webnav ul li a{
-    text-decoration: none;
-    color:#969696;
 }
 
-.footer > div > div:first-child{
-    margin-left: 0px;
-}
-.social{
-    width:1170px;
-    
 
-}
-.social .award, .social .socialmedialinks{
-    float:left;
-    width:570px;
-
-}
-.award{
-    background-color: #333333;
-    padding-top:60px;
-    padding-bottom: 60px;
-    font-size: 36px;
-    text-align: center;
-    color: #ffffff;
-    font-family: "Montserrat";
-}
-.award span{
-    font-weight:100;
-}
-.socialmedialinks{
-    background-color: #00c8c8;
-    padding-top:80px;
-    padding-bottom: 80px;
-    margin-left:30px;
-}
-.socialmedialinks > div{
-    width:290px;
-    margin:auto;
-}
-.socialmedialinks a{
-    font-size: 36px;
-    letter-spacing: 2px;
-    line-height: 48px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    margin-left:50px;
-
-}
-.socialmedialinks a:first-child{
-    margin-left: 0px;
-}
 /* .banner img[alt="ave"]{
     width:100%;
     position:absolute;

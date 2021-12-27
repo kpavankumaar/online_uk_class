@@ -51,7 +51,8 @@ ul li{
     list-style-type:none;
 }
 .navbanner{
-    width: 2045px;   
+    width: 2045px;
+    border:1px solid black;    
     background: url("./asset/bannerimg.png");
     background-repeat: no-repeat;
     background-position-x: 500px;
