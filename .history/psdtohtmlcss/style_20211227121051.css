@@ -122,8 +122,9 @@ ul li{
     
     
 } 
-.banner > div {
+.banner > div  {
     padding-top: 237px;
+    padding-bottom:300px;
 }
 .banner p{
     width:1651px;

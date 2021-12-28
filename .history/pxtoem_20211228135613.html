@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+             font-size: 1.125em; /*18px; */
+        }
+        html,body,ul,li,p,h1,h2,h3,h4,h5,h6{
+            margin:0px;
+            padding: 0px;
+            
+        }
+        .box{
+            /* font-size: 18px; */
+        }
+        .header, .box, footer {
+            /* width:900px; */
+            width:56.25em;
+            /* width: 50em;  */
+            margin:auto;
+            background-color: teal;
+        }
+        ul{
+            float:right;
+        }
+        ul li{
+            list-style-type: none;
+            float:left;
+            margin-left:5px;
+        }
+        
+        .box1,.box2,.box3{
+            /* width:16.6666em; */
+            /* width:300px; */
+            width:18.75em; 
+            padding: 5px;
+            float:left;
+            box-sizing: border-box;
+        }
+        .box::after, .header::after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        .box1{
+            background-color: yellow;
+        }
+        .box2{
+            background-color: goldenrod;
+
+        }
+        .box3{
+            background-color:silver;
+        }
+        @media only screen and (max-width: 857px ) and ( min-width:756px ) {
+            .box1,.box2{
+                width:50%;
+            }
+            .box3{
+                width:100%;
+            }
+        }
+        @media (max-width:755px){
+            .box1,.box2{
+                width:100%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>home</li>
+            <li>products</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        <div class="box2">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        <div class="box3">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        
+    </div>
+    <footer>
+        Copyrights 2021
+    </footer>
+    
+</body>
+</html>
