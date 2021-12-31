@@ -1,0 +1,14 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div{
+    margin:0px;
+    padding:0px;
+}
+.register ul li{
+    list-style-type: none;
+}
+.topbar{
+    width:2045px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div{
+    margin:0px;
+    padding:0px;
+}
+.register ul li{
+    list-style-type: none;
+}
+
+.menu{
+    width:1056px;
+    display:flex;
+    justify-content: flex-end;
+    border: 1px solid grey;
+}
+.topbar{
+    box-sizing: border-box;
+    width:2045px;
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+}
