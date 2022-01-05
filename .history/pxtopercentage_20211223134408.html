@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header, .box, footer {
+            width:800px;
+            margin:auto;
+        }
+
+        ul li{
+            list-style-type: none;
+        }
+        .box1,.box2,.box3{
+            width:200px;
+            float:left;
+        }
+        .box::after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>home</li>
+            <li>products</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        <div class="box2">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        <div class="box3">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda reprehenderit quis repellat animi quas dolore architecto voluptatum dolorem iure incidunt nobis dolorum dolor totam quos laborum consectetur iste fugiat.</p>
+        </div>
+        <footer>
+            Copyrights 2021
+        </footer>
+    </div>
+    <!-- <nav>
+
+    </nav>
+    <header>
+        <h1>heading</h1>
+    </header>
+    <section>
+        <article>
+            <div></div>
+        </article>
+    </section>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer> -->
+</body>
+</html>

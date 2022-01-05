@@ -1,0 +1,39 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div{
+    margin:0px;
+    padding:0px;
+}
+ ul li{
+    list-style-type: none;
+}
+
+.registermenu{
+    width:1056px;
+    display:flex;
+    justify-content: flex-end;
+    border: 1px solid grey;
+}
+.topbar{
+    box-sizing: border-box;
+    width:2045px;
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    width:2045px;
+    justify-content: center;
+}
+.nav{
+    width:1545px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.mensubmenu{
+    display: none;
+}
+.submenu:hover + div.mensubmenu{
+    display:flex;
+}

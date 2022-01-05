@@ -1,0 +1,100 @@
+.container{
+    width: 1440px;
+}
+
+.navigation1 {
+    list-style-type:none;
+}
+/* use this for creating bullet points */
+/* .navigation1 li::before{
+    content:"";
+    display: inline-block;
+    width:5px;
+    height:5px;
+    background-color: aqua;
+    margin-right:5px;
+    margin-bottom:2px;
+} */
+a{
+    width: 500px;
+    height:25px;
+    display: inline-block;
+    background-color: yellow;
+}
+/* normalising */
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,div{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    list-style-type: none;
+}
+
+.navigation1,.logo,.navigation2{
+    float:left;
+}
+.navigation1 li, .navigation2 li{
+    float:left;
+}
+.navigation{
+    background-image: url("./assets/section_hero.png");
+    padding-bottom: 258px;
+}
+.navigationbanner{
+    width:940px;
+    margin: auto;
+    color:#ffffff;
+}
+.navigationbanner::after{
+    content: "";
+    display:block;
+    clear: both;
+    
+}
+.navigation1{
+    margin-right:98px;
+}
+.navigation1 li, .navigation2 li{
+    margin-right:38px;
+    padding-top: 45px;
+}
+.logo{
+    width:100px;
+}
+.navigation2{
+    margin-left:98px;
+}
+/* {
+    margin-right: 40px;
+} */
+.bannertext{
+    width:520px;
+    margin: auto;
+    margin-top:278px;
+
+}
+.bannertext p{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.bannertext div{
+    width:368px;
+    margin:auto;
+
+}
+.bannertext div button{
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.bannertext div button:last-child{
+    margin-left:40px;
+    color:#0e6248;
+}
+.bannertext div button:first-child{
+    background-color: #0e6248;
+    color:white;
+}
+.bannertext div:first-of-type{
+    margin-top: 25px;
+}
