@@ -15,8 +15,8 @@ function draupadi_yudhister(){
 }
 
 function draupadi_arjun(){
-    console.log(draupadi);// undefined
-    var draupadi = "Juice"; // undefined replaced by "Juice"
+    console.log(draupadi);
+    var draupadi = "Juice";
     bheem = draupadi;
 }
 
@@ -27,5 +27,5 @@ function draupadi_bheem(){
     console.log(bheem);
     bheem = nakul;
 }
-console.log(yudhishter);// burger
-console.log(bheem);//  juice 
+console.log(yudhishter);
+console.log(bheem);// corn

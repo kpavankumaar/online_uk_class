@@ -27,5 +27,5 @@ function draupadi_bheem(){
     console.log(bheem);
     bheem = nakul;
 }
-console.log(yudhishter);// burger
-console.log(bheem);//  juice 
+console.log(yudhishter);
+console.log(bheem);// corn
