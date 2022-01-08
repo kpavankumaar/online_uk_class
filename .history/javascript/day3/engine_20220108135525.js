@@ -26,7 +26,7 @@ function draupadi_bheem(){
     arjun = "chips"
     yudhishter = "Coco chips"
     bheem = arjun;
-    // console.log(draupadi);
+    console.log(draupadi);
     console.log(bheem);
     bheem = nakul;
 }
