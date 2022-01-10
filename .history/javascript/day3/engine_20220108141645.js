@@ -11,7 +11,7 @@ function draupadi_yudhister(){
     yudhishter = "corn";
     bheem = yudhishter;
     draupadi_arjun();
-    console.log(bheem);
+    console.log(bheem)
 }
 
 function draupadi_arjun(){
@@ -20,12 +20,14 @@ function draupadi_arjun(){
     draupadi_bheem();
     console.log(bheem);
     bheem = draupadi;
+    
 }
 
 function draupadi_bheem(){
     arjun = "chips"
     yudhishter = "Coco chips"
     bheem = arjun;
+    // console.log(draupadi);
     console.log(bheem);
     bheem = nakul;
 }
