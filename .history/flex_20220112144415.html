@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- <html lang="ar" dir="rtl" > -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.main{
+            border:1px solid black;
+            width:800px;
+            display: flex;
+        }
+        div.box{
+            border:1px solid black;
+            flex-basis: 200px;
+            /* flex-grow:0; 
+            flex-shrink:1;
+            flex-basis:auto; */
+            /* flex : 0 1 auto; short hand version */
+            /* flex-grow: 1; */
+            /* flex-shrink: 0; */
+            /* width:400px; */
+        }
+        .box1{
+            flex-grow:1;
+            /* flex-grow: 1;
+            flex-basis:200px; */
+        }
+        .box2{
+            flex-shrink: 2;
+            flex-grow: 1;
+        }
+        .box3{
+            flex-grow: 1;
+            /* flex-basis: 200px;  */
+            flex-shrink:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box box1">
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        </div>
+        <div class="box box2">two</div>
+        <div class="box box3">three <br> four <br>five</div>
+    </div>
+    <!-- <div class="main">
+        <div class="box box1">
+            ا
+        </div>
+        <div class="box box2">ب</div>
+        <div class="box box3">ت</div>
+    </div> -->
+
+</body>
+</html>
