@@ -4,23 +4,3 @@
 // Delete ->  delete the whole task
 
 
-var addTaskButton = document.getElementById("add");
-
-
-
-
-
-
-addTaskButton.onclick = addTaskFunction;
-function addTaskFunction(){
-    console.log("add task");
-}
-function complestionStatusfn(){
-
-}
-function editTask(){
-
-}
-function deleteTask(){
-
-}

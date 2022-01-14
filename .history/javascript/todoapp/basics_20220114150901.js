@@ -11,7 +11,7 @@ var addTaskButton = document.getElementById("add");
 
 
 
-addTaskButton.onclick = addTaskFunction;
+addTaskButton.onclick = addTaskFunction();
 function addTaskFunction(){
     console.log("add task");
 }

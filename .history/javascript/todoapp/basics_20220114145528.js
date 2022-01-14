@@ -2,25 +2,3 @@
 // complestionstatusfn -> move the complete task to opposite section ie from completed section to incomplete section, or from incomplete section to complete section 
 // Edit -> requires to display the input type text and hide the label element, after editing hide input text and display label element
 // Delete ->  delete the whole task
-
-
-var addTaskButton = document.getElementById("add");
-
-
-
-
-
-
-addTaskButton.onclick = addTaskFunction;
-function addTaskFunction(){
-    console.log("add task");
-}
-function complestionStatusfn(){
-
-}
-function editTask(){
-
-}
-function deleteTask(){
-
-}
