@@ -17,7 +17,6 @@ for(var i = 0; i < checkBoxes.length; i = i + 1){
 }
 
 function addTaskFunction(){
-    var task= document.getElementById("task");
     // create parent div, input type checkbox, label, input type text, edit button, delete button
     var parentDiv = document.createElement("div");
     var inputCheck = document.createElement("input");
@@ -26,20 +25,6 @@ function addTaskFunction(){
     var editButton = document.createElement("button");
     var deleteButton = document.createElement("button");
 
-
-    inputCheck.setAttribute("type","checkbox");
-    labelEl.innerText = task.value;
-    inputTextEdit.setAttribute("type","text");
-    editButton.setAttribute("class","edit");
-    deleteButton.setAttribute("class","delete");
-    editButton.innerText = "Edit";
-    deleteButton.innerText = "Delete";
-    
-    parentDiv.appendChild(inputCheck);
-    parentDiv.appendChild(labelEl);
-    parentDiv.appendChild(inputTextEdit);
-    parentDiv.appendChild(editButton);
-    parentDiv.appendChild(deleteButton);
     toBeCompleted.appendChild(parentDiv);
 }
 function completionStatusfn(){

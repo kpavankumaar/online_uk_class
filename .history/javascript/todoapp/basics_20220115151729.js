@@ -34,7 +34,6 @@ function addTaskFunction(){
     deleteButton.setAttribute("class","delete");
     editButton.innerText = "Edit";
     deleteButton.innerText = "Delete";
-    
     parentDiv.appendChild(inputCheck);
     parentDiv.appendChild(labelEl);
     parentDiv.appendChild(inputTextEdit);

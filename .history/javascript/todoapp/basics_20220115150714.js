@@ -26,15 +26,8 @@ function addTaskFunction(){
     var editButton = document.createElement("button");
     var deleteButton = document.createElement("button");
 
-
     inputCheck.setAttribute("type","checkbox");
-    labelEl.innerText = task.value;
-    inputTextEdit.setAttribute("type","text");
-    editButton.setAttribute("class","edit");
-    deleteButton.setAttribute("class","delete");
-    editButton.innerText = "Edit";
-    deleteButton.innerText = "Delete";
-    
+    labelEl.innerText = "";
     parentDiv.appendChild(inputCheck);
     parentDiv.appendChild(labelEl);
     parentDiv.appendChild(inputTextEdit);

@@ -30,11 +30,6 @@ function addTaskFunction(){
     inputCheck.setAttribute("type","checkbox");
     labelEl.innerText = task.value;
     inputTextEdit.setAttribute("type","text");
-    editButton.setAttribute("class","edit");
-    deleteButton.setAttribute("class","delete");
-    editButton.innerText = "Edit";
-    deleteButton.innerText = "Delete";
-    
     parentDiv.appendChild(inputCheck);
     parentDiv.appendChild(labelEl);
     parentDiv.appendChild(inputTextEdit);
