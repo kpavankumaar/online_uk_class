@@ -46,10 +46,10 @@ function addTaskFunction(){
 function completionStatusfn(){
     var divEl = this.parentNode;
     var sectionClass = divEl.parentNode.getAttribute("class");
-    if(sectionClass === "completed"){
+    if(sectionClass === "selected"){
         toBeCompleted.appendChild(divEl);
     }else{
-        completed.appendChild(divEl);
+        // 
     }
     
 }

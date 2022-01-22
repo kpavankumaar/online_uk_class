@@ -9,7 +9,7 @@ var addTaskButton = document.getElementById("add");
 var checkBoxes = document.getElementsByName("checkbox");
 var editBtns = document.getElementsByClassName("edit");
 var toBeCompleted = document.getElementsByClassName("tobecompleted")[0];
-var completed = document.getElementsByClassName("completed")[0];
+
 addTaskButton.onclick = addTaskFunction;
 for(var i = 0; i < checkBoxes.length; i = i + 1){
     // var name = "ravi";
@@ -44,16 +44,10 @@ function addTaskFunction(){
     toBeCompleted.appendChild(parentDiv);
 }
 function completionStatusfn(){
-    var divEl = this.parentNode;
-    var sectionClass = divEl.parentNode.getAttribute("class");
-    if(sectionClass === "completed"){
-        toBeCompleted.appendChild(divEl);
-    }else{
-        completed.appendChild(divEl);
-    }
-    
-}
+    console.log("completion status", this);
 
+
+}
 function editTask(){
     console.log("edit btn")
 }

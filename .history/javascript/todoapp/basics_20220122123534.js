@@ -45,15 +45,9 @@ function addTaskFunction(){
 }
 function completionStatusfn(){
     var divEl = this.parentNode;
-    var sectionClass = divEl.parentNode.getAttribute("class");
-    if(sectionClass === "completed"){
-        toBeCompleted.appendChild(divEl);
-    }else{
-        completed.appendChild(divEl);
-    }
-    
+    toBeCompleted.appendChild(divEl);
+    debugger;
 }
-
 function editTask(){
     console.log("edit btn")
 }

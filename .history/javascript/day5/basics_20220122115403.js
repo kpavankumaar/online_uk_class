@@ -27,10 +27,6 @@
 var obj = {
     name: "pavan",
     details: function(){
-        console.log("data", this.name);
-        function test(){
-            console.log("test",this);
-        }
-        test();
+        console.log("data", this);
     }
 }
