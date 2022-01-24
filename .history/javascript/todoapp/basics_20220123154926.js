@@ -33,7 +33,7 @@ function addTaskFunction(){
     inputTextEdit.setAttribute("type","text");
     editButton.setAttribute("class","edit");
     deleteButton.setAttribute("class","delete");
-    editButton.innerText = "Edit";
+    editButton.innerText = "Edit/Save";
     deleteButton.innerText = "Delete";
     
     parentDiv.appendChild(inputCheck);

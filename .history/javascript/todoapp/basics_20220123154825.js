@@ -33,7 +33,7 @@ function addTaskFunction(){
     inputTextEdit.setAttribute("type","text");
     editButton.setAttribute("class","edit");
     deleteButton.setAttribute("class","delete");
-    editButton.innerText = "Edit";
+    editButton.innerText = "Edit/Save";
     deleteButton.innerText = "Delete";
     
     parentDiv.appendChild(inputCheck);
@@ -64,13 +64,13 @@ function editTask(){
 
     if(editParentClass !== "editmode"){
         edit_Parent.setAttribute("class", "editmode");
-        this.innerText = "Save"
+        this.innerText = "Edit"
         edit_Task.value = label.innerText;
         label.style.display= "none";
         edit_Task.style.display = "inline-block";
     }else{
         edit_Parent.removeAttribute("class");
-        this.innerText = "Edit"
+        this.innerText = "Save"
         label.innerText = edit_Task.value;
         edit_Task.style.display = "none";
         label.style.display = "inline-block";

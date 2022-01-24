@@ -55,26 +55,13 @@ function completionStatusfn(){
 }
 
 function editTask(){
-
     console.log("edit btn", this);
-    var edit_Parent = this.parentNode;
-    var editParentClass = edit_Parent.getAttribute("class");
+    edit_Parent = this.parentNode;
     var label = edit_Parent.querySelector("label");
     var edit_Task = edit_Parent.querySelector("input[type=text]");
-
-    if(editParentClass !== "editmode"){
-        edit_Parent.setAttribute("class", "editmode");
-        this.innerText = "Save"
-        edit_Task.value = label.innerText;
-        label.style.display= "none";
-        edit_Task.style.display = "inline-block";
-    }else{
-        edit_Parent.removeAttribute("class");
-        this.innerText = "Edit"
-        label.innerText = edit_Task.value;
-        edit_Task.style.display = "none";
-        label.style.display = "inline-block";
-    }
+    edit_Task.value = label.innerText;
+    label.style.display= "none";
+    edit_Task.style.display = "inline-block";
 }
 function deleteTask(){
 
