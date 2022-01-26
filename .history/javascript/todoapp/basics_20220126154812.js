@@ -54,8 +54,9 @@ function completionStatusfn(){
     
 }
 
-function editTask(ev){
-    console.log("edit btn", ev);
+function editTask(e){
+
+    console.log("edit btn", e);
     var edit_Parent = this.parentNode;
     var editParentClass = edit_Parent.getAttribute("class");
     var label = edit_Parent.querySelector("label");

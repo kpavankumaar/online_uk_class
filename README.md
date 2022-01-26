@@ -85,3 +85,10 @@
         <li>third</li> <!--this element is selected-->
         <li>fourth</li>
     </ul>
+
+
+    _____________________ assignement _________________________
+
+1.  Hover on the image element  create a popup near the cursor .
+2.  popup element must move along the mouse, until the cursor moves out of the image area.
+3.  
