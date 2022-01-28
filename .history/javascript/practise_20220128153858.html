@@ -16,10 +16,10 @@
         function searchData(){
             num = num +1 ;
             if(search < data[parseInt(data.length/2)]){
-                data.splice(parseInt(data.length/2),parseInt(data.length/2));
+                data.splice(data.length/2,data.length/2);
                 searchData();
             }else if( search > data[parseInt(data.length/2)]){
-                data.splice(0,parseInt(data.length/2));
+                data.splice(0,data[parseInt(data.length/2)]);
                 searchData();
             }else if( search == data[parseInt(data.length/2)]){
                 console.log("searched value " , data[parseInt(data.length/2)], " number operations performed ", num);

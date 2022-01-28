@@ -16,26 +16,26 @@
         function searchData(){
             num = num +1 ;
             if(search < data[parseInt(data.length/2)]){
-                data.splice(parseInt(data.length/2),parseInt(data.length/2));
+                data.splice(data.length/2,data.length/2);
                 searchData();
             }else if( search > data[parseInt(data.length/2)]){
-                data.splice(0,parseInt(data.length/2));
+                data.splice(0,data[parseInt(data.length/2)]);
                 searchData();
             }else if( search == data[parseInt(data.length/2)]){
                 console.log("searched value " , data[parseInt(data.length/2)], " number operations performed ", num);
             }
         }
         searchData();
-        // for(var i = 0; i < data.length ; i++ ){
-        //     console.log(i);
-        //     if(search == data[i]){
-        //         console.log("data ", data[i]);
-        //         console.log(data[i], " searched Item " , search, "number of operation for loop", i );
-        //         break;
-        //     }else{
-        //         //console.log(data[i], " searched Item " , search, "number of operation for loop", i );
-        //     }
-        // }
+        for(var i = 0; i < data.length ; i++ ){
+            console.log(i);
+            if(search == data[i]){
+                console.log("data ", data[i]);
+                console.log(data[i], " searched Item " , search, "number of operation for loop", i );
+                break;
+            }else{
+                //console.log(data[i], " searched Item " , search, "number of operation for loop", i );
+            }
+        }
         // var movieTkts = prompt("do you have tickets for xyz movie?");
 
         // var paymentOption = ["card","upi", "cash" ];

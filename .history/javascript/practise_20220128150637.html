@@ -9,31 +9,27 @@
 <body>
 
     <script>
-        var search = prompt("what value are you searching between 1-20");
-        var data = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+        var search = prompt("what value are you searching between 1-10");
+        var data = [1,2,3,4,5,6,7,8,9,10];
         // var value = data.splice(5,2,11);
-        var num = 0 ;
         function searchData(){
-            num = num +1 ;
             if(search < data[parseInt(data.length/2)]){
-                data.splice(parseInt(data.length/2),parseInt(data.length/2));
+                data.splice(data.length/2,data.length/2);
                 searchData();
             }else if( search > data[parseInt(data.length/2)]){
-                data.splice(0,parseInt(data.length/2));
+                data.splice(0,data[parseInt(data.length/2)]);
                 searchData();
             }else if( search == data[parseInt(data.length/2)]){
-                console.log("searched value " , data[parseInt(data.length/2)], " number operations performed ", num);
+                console.log("searched value " , data[data.length]);
             }
         }
         searchData();
         // for(var i = 0; i < data.length ; i++ ){
-        //     console.log(i);
         //     if(search == data[i]){
         //         console.log("data ", data[i]);
-        //         console.log(data[i], " searched Item " , search, "number of operation for loop", i );
         //         break;
         //     }else{
-        //         //console.log(data[i], " searched Item " , search, "number of operation for loop", i );
+        //         console.log(data[i], " searched Item " , search);
         //     }
         // }
         // var movieTkts = prompt("do you have tickets for xyz movie?");
