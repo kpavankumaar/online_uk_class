@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var hotels = [
+            {price:400, name: "iphone11"},
+            {price:3000, name: "iphone13pro"},
+            {price:500, name: "iphone12"},
+            {price:1000, name: "iphone13"},
+        ]
+        var max;
+        var min;
+        for(var i = 0 ; i < hotels.length; i++){
+            var price = hotels[i].price;
+            for(var j = 0; j< hotels.length; j++){
+                if( i !== j){
+                    if(price == hotels[j].price){
+
+                    }else if(price < hotels[j].price){
+                        if(!min){
+                            min = price;
+                        }else{
+                            min = min < price ? min : price;
+                        }
+                    }else if(price > hotels[j].price){
+                        if(!max){
+                            max = price;
+                        }else{
+                            max = max > price ? max : price;
+                        }
+                    }
+                }
+            }
+        }
+        console.log(min, max);
+    </script>
+</body>
+</html>
