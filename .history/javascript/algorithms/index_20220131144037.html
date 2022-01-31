@@ -10,7 +10,7 @@
     <script>
         var sample = [5,3,1,2,4,7,10,11,6]
             sample.sort(function(a,b){
-                return b-a;
+                return a-b;
             })
         var hotels = [
             {price:400, name: "iphone11"},
@@ -20,11 +20,7 @@
         ]
         var max;
         var min;
-        hotels.sort(function(a,b){
-            return a.price - b.price;
-        })
-        max = hotels[hotels.length];
-        min = hotels[0];
+
         // 2n algorithm
         // identify maximum value
         for(var i = 0 ; i < hotels.length; i++){

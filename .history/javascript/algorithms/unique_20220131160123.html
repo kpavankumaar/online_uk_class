@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [4,3,2,2,3,2,2];
+        var noRepeatArray = [];
+        var noRepeatVal = {};
+        for(var i = 0; i < arr.length; i++){
+            if(!noRepeatVal[arr[i]]){
+                noRepeatVal[arr[i]] = true;
+
+            }
+
+
+            for (let index = 0; index < arr.length; index++) {
+                if(i != index && arr[i] != arr[index]){
+                    noRepeatVal[arr[i]] = true; // noRepeatVal = { 4 : true}
+                }
+                
+            }
+        }
+        var obj = {
+            "4": true,
+            "3":true,
+            "2":true
+            }
+    </script>
+</body>
+</html>
