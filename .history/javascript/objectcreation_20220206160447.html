@@ -38,24 +38,10 @@
             console.log( this);
         }
         function CreateObject(){
-            console.log(this);
+            
             CleaningItems.call(this, "lizol ", "Axe Soap","Local Acid" ); // bind, apply
-
         }
         var bill = new CreateObject();
-        
-        // es6 structure 
-        class studentDetails{
-            item1;
-            item2 = "card";
-            constructor(data){
-                console.log(data);
-                this.item1 = data;
-            }
-
-
-        }
-        var firstObj = new studentDetails("icecream");
     </script>
 </body>
 </html>
