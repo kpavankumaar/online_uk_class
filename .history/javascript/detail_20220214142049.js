@@ -11,6 +11,5 @@ function callBackFn(test){
 (function(cb){
     var a = 30;
     console.log(a);
-    cb(a);
-})(callBackFn);// iife
+})();// iife
 // test();

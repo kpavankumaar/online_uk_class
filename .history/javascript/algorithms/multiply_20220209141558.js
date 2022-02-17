@@ -1,6 +1,5 @@
 var obj = {}
 function multiply(a){
-    var c = 50;
     return function(b){
         console.log(a * b);
     }

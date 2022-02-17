@@ -9,7 +9,7 @@
 <body>
     <script>
         // Object creation
-        (function(test){
+        (function(){
             var createObject = {};
             createObject.name = "ravi";
             createObject.age = 20;
@@ -58,8 +58,7 @@
                 
             }
             var firstObj = new studentDetails("icecream");
-            test(firstObj)
-        })(function(d){ console.log(d)});
+        })();
     </script>
     <script src="./basics.js"></script>
     <script src="./detail.js"></script>
