@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="data"></div>
-    <script src="./service_ajax.js"></script>
-    <script src="./dom.js"></script>
+    <script>
+        var new_Promise = new Promise(function(resolve,reject){
+            resolve(5);
+            resolve(10);
+        });
+        new_promise.then(function(v){
+            console.log(v);
+        })
+    </script>
 </body>
 </html>
